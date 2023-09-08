@@ -14,7 +14,7 @@ const PopularProducts = () => {
         Experience top-notch quality and style with our sought-after selections.
         Discover a world of comfort, design, and value
       </p>
-      <div className="flex-1 flex max-lg:flex-wrap lg:gap-6 gap-16 max-sm:flex-col max-sm:w-full">
+      <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-y-16 gap-x-8">
         {products.map((item) => (
           <ProductCard
             key={item.name}

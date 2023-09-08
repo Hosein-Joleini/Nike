@@ -2,7 +2,7 @@ import { star } from "../assets/icons";
 
 const ProductCard = ({ name, imgURL, price }) => {
   return (
-    <div className="flex-1 flex flex-col items-start">
+    <div className="flex flex-col items-start">
       <img src={imgURL} alt={name} />
       <div className="flex items-center gap-2 mt-10 mb-4">
         <img src={star} alt="star icon" />
